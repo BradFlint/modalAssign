@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+body {
+	margin: 0;
+	background-color: #A0B5A0;
+	font-family: Raleway, sans-serif;
+}
+
+.header {
+	width: 100%;
+	height: auto;
+}
+
+.header img {
+	width: 100%;
+	height: auto;
+	background-size: cover;
+}
+
+.header iframe {
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+}
+
+.navbar1 {
+	width: 100%;
+	height: 120px;
+	background-color: #2D672B;
+	position: absolute;
+	top: 0;
+	opacity: .95;
+	box-shadow: 0 10px 6px -9px #333;
+}
+.navbar1 h1:hover {
+	color: #333;
+}
+
+.fishlogo img {
+	width: 120px;
+	height: 120px;
+	float: left;
+}
+
+.header1 {
+	float: right;
+}
+
+.header1 a {
+	text-decoration: none;
+}
+
+.header1 h1 {
+	color: white;
+	font-size: 20px;
+	margin-top: 47px;
+	margin-right: 50px;
+
+}
+
+.header2 h2 {
+	color: white;
+	font-size: 50px;
+	margin-top: 47px;
+	margin-right: 50px;
+	font-family: "book antigua";
+
+}
+.body {
+	width: 100%;
+	height: 500px;
+	background-color: #aacfd0;
+	margin: 0;
+	display: inline;
+}
+
+.infobox {
+	width: 29%;
+	height: 400px;
+	background-color: #A2A2A2;
+	padding: 10px 0px;
+	text-align: center;
+	float: left;
+	display: inline-block;
+	border-radius: 3px;
+	margin: 20px 2.1%;
+	color: white;
+}
+
+.infobox img {
+	width: 80%;
+	height: auto;
+	border-radius: 3px;
+
+}
+
+.infobox p {
+	padding: 0 40px 20px 40px;
+}
+
+.infobox1 {
+	width: 29%;
+	height: 400px;
+	background-color: white;
+	padding: 10px 0px;
+	text-align: center;
+	float: left;
+	display: inline-block;
+	border-radius: 3px;
+	margin: 20px 2.1%;
+}
+
+.infobox1 img {
+	width: 33%;
+	margin-top: 15%;
+	height: auto;
+	border-radius: 3px;
+}
+
+.infobox1 p {
+	padding: 20px 35px;
+
+}
+.infobar {
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	margin: 0;
+	float: left;
+}
+
+.infobar img {
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+
+.alaskainfo {
+	width: 50%;
+	height: 100%;
+	border-radius: 3px;
+	float: left;
+}
+
+.alaskainfo h1 {
+	float: left;
+	margin-left: 20px;
+	margin-top: 23px;
+	font-size: 30px;
+	text-decoration: none;
+	color: #666;
+}
+
+.alaskainfo p {
+	margin: 20px;
+	clear: left;
+	font-size: 15px;
+}
+.navbar2{
+	width: 100%;
+	height: 200px;
+	background-color: #333;
+	opacity: .95;
+	float: left;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 5px solid #2D672B;
+    width: 50%; 
+    opacity: .85;
+    font-size: 20px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#email2 {
+	width: 300px;
+	height: auto;
+}
